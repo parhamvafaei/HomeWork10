@@ -1,8 +1,11 @@
 package org.example.repository.impl;
 
+import org.example.config.DBConfig;
 import org.example.entity.Customer;
+import org.example.exception.NotFoundException;
+import org.example.exception.PermissionDeniedException;
 import org.example.repository.CustomerRepository;
-
+import org.example.config.DBConfig;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -15,7 +18,7 @@ public class CustomerRepositoryImpl implements CustomerRepository {
                 select id, name from customer
                 where username = ? and password = ?;
                 """;
-        try (PreparedStatement ps = DbConfig.getConnection().prepareStatement(query);
+        try (PreparedStatement ps = DBConfig.getConnection().prepareStatement(query);
         ) {
             ps.setString(1, customer.getUsername());
             ps.setString(2, customer.getPassword());
@@ -36,7 +39,7 @@ public class CustomerRepositoryImpl implements CustomerRepository {
                 insert into customer (name,username,password) 
                 values (?,?,?)
                 """;
-        try (PreparedStatement ps = DbConfig.getConnection().prepareStatement(query)) {
+        try (PreparedStatement ps = DBConfig.getConnection().prepareStatement(query)) {
             ps.setString(1, customer.getName());
             ps.setString(2, customer.getUsername());
             ps.setString(3, customer.getPassword());
@@ -52,7 +55,7 @@ public class CustomerRepositoryImpl implements CustomerRepository {
                 update customer 
                 set name = ? , username = ? , password = ?
                 """;
-        try (PreparedStatement ps = DbConfig.getConnection().prepareStatement(query)) {
+        try (PreparedStatement ps = DBConfig.getConnection().prepareStatement(query)) {
             ps.setString(1, customer.getName());
             ps.setString(2, customer.getUsername());
             ps.setString(3, customer.getPassword());
@@ -68,7 +71,7 @@ public class CustomerRepositoryImpl implements CustomerRepository {
                 delete from customer
                 where id = ? and username = ? and password = ?
                 """;
-        try (PreparedStatement ps = DbConfig.getConnection().prepareStatement(query)) {
+        try (PreparedStatement ps = DBConfig.getConnection().prepareStatement(query)) {
             ps.setLong(1, customer.getId());
             ps.setString(2, customer.getUsername());
             ps.setString(3, customer.getPassword());
@@ -78,15 +81,4 @@ public class CustomerRepositoryImpl implements CustomerRepository {
         }
     }
 
- /*   public boolean checkUsername(String username) {
-        String query = """
-                select id from customer
-                where username = ?
-                """;
-        try (PreparedStatement ps = DbConfig.getConnection().prepareStatement(query)) {
-            ps.setString(1, username);
-            ResultSet rs = ps.executeQuery();
-            return rs.next();
-        } catch (SQLException e) {
-            throw new RuntimeException("Can't read from Costumer", e.getCause());
-        }
+}
