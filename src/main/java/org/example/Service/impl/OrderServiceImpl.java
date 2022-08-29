@@ -20,10 +20,7 @@ public class OrderServiceImpl implements OrderService {
 
     }
 
-    @Override
-    public Order loadPendingOrder(long customerId) {
-        return null;
-    }
+
 
     @Override
     public int numberOfProduct(long id) {

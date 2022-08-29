@@ -6,5 +6,5 @@ import org.example.entity.Order;
 public interface CustomerService {
 
     Customer login(Customer customer);
-    Order loadPendingOrder(long customerId);
+
 }

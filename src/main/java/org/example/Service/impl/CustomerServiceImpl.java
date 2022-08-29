@@ -15,9 +15,5 @@ public class CustomerServiceImpl implements CustomerService {
     public Customer login(Customer customer) {
         return customerRepository.read(customer);
     }
-
-    @Override
-    public Order loadPendingOrder(long customerId) {
-        return orderService.loadPendingOrder(customerId);
-    }
 }
+
