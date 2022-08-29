@@ -1,6 +1,8 @@
 package org.example.entity;
 
-public class Customer {
+import org.example.base.BaseEntity;
+
+public class Customer implements BaseEntity {
 
         private long id;
         private String name;

@@ -1,10 +1,12 @@
 package org.example.entity;
-import
+
+
+import org.example.base.BaseEntity;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class Order {
+public class Order implements BaseEntity {
     private long id;
     private List<ProductOrder> products;
     private OrderStatus status;
@@ -36,10 +38,10 @@ public class Order {
     }
 
     public List<ProductOrder> getProducts() {
-        return ArrayList<ProductOrder>;
+        return products;
     }
 
-    public void setProducts(ProductOrderList products) {
+    public void setProducts(List<ProductOrder> products) {
         this.products = products;
     }
 
