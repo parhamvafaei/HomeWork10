@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9cee746-7963-433e-acc7-7aea48c71ba9" name="Changes" comment="Create Radio Class and write getter setter methods">
+    <list default="true" id="a9cee746-7963-433e-acc7-7aea48c71ba9" name="Changes" comment="Update">
       <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Sql.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/repository/IEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/entity/Customer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/entities/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/entities/electricProduct/Radio.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +64,7 @@
       <workItem from="1661320365152" duration="615000" />
       <workItem from="1661321168025" duration="652000" />
       <workItem from="1661409813930" duration="23000" />
-      <workItem from="1661757657435" duration="1942000" />
+      <workItem from="1661757657435" duration="2252000" />
     </task>
     <task id="LOCAL-00001" summary="Set settings(maven , .ignore)">
       <created>1661174252184</created>
@@ -84,7 +80,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661174435255</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Update">
+      <created>1661787792569</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1661787792569</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,6 +107,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Set settings(maven , .ignore)" />
     <MESSAGE value="Create Radio Class and write getter setter methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create Radio Class and write getter setter methods" />
+    <MESSAGE value="Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update" />
   </component>
 </project>
