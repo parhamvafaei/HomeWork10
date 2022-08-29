@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9cee746-7963-433e-acc7-7aea48c71ba9" name="Changes" comment="Update">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/entity/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/entities/Main.java" beforeDir="false" />
+    <list default="true" id="a9cee746-7963-433e-acc7-7aea48c71ba9" name="Changes" comment="Create orderStatus">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/entity/Product.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +27,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Di7mZHFcfSRY2udaJlZG5TNTI3" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -64,7 +63,7 @@
       <workItem from="1661320365152" duration="615000" />
       <workItem from="1661321168025" duration="652000" />
       <workItem from="1661409813930" duration="23000" />
-      <workItem from="1661757657435" duration="2252000" />
+      <workItem from="1661757657435" duration="2575000" />
     </task>
     <task id="LOCAL-00001" summary="Set settings(maven , .ignore)">
       <created>1661174252184</created>
@@ -87,7 +86,56 @@
       <option name="project" value="LOCAL" />
       <updated>1661787792569</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Update">
+      <created>1661787844020</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1661787844020</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Update">
+      <created>1661787871736</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1661787871736</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Update">
+      <created>1661787889271</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1661787889271</updated>
+    </task>
+    <task id="LOCAL-00007" summary="create Customer">
+      <created>1661787930582</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1661787930582</updated>
+    </task>
+    <task id="LOCAL-00008" summary="create Order">
+      <created>1661788013239</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1661788013239</updated>
+    </task>
+    <task id="LOCAL-00009" summary="create Update">
+      <created>1661788083695</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1661788083695</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Create orderStatus">
+      <created>1661788110629</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1661788110629</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,6 +156,10 @@
     <MESSAGE value="Set settings(maven , .ignore)" />
     <MESSAGE value="Create Radio Class and write getter setter methods" />
     <MESSAGE value="Update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update" />
+    <MESSAGE value="create Customer" />
+    <MESSAGE value="create Order" />
+    <MESSAGE value="create Update" />
+    <MESSAGE value="Create orderStatus" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create orderStatus" />
   </component>
 </project>
