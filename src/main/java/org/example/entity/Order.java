@@ -1,8 +1,12 @@
 package org.example.entity;
+import
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class Order {
     private long id;
-    private ProductOrderList products;
+    private List<ProductOrder> products;
     private OrderStatus status;
     private int totalPrice;
     private int productNumbers;
@@ -31,8 +35,8 @@ public class Order {
         this.id = id;
     }
 
-    public ProductOrderList getProducts() {
-        return products;
+    public List<ProductOrder> getProducts() {
+        return ArrayList<ProductOrder>;
     }
 
     public void setProducts(ProductOrderList products) {

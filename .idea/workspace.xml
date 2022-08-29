@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9cee746-7963-433e-acc7-7aea48c71ba9" name="Changes" comment="Create orderStatus">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/entity/Product.java" afterDir="false" />
+    <list default="true" id="a9cee746-7963-433e-acc7-7aea48c71ba9" name="Changes" comment="Create ProductOrder">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/entity/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/entity/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/entity/OrderStetus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/entity/OrderStatus.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +64,7 @@
       <workItem from="1661320365152" duration="615000" />
       <workItem from="1661321168025" duration="652000" />
       <workItem from="1661409813930" duration="23000" />
-      <workItem from="1661757657435" duration="2575000" />
+      <workItem from="1661757657435" duration="3012000" />
     </task>
     <task id="LOCAL-00001" summary="Set settings(maven , .ignore)">
       <created>1661174252184</created>
@@ -135,7 +136,21 @@
       <option name="project" value="LOCAL" />
       <updated>1661788110629</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Update and Product">
+      <created>1661788179311</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1661788179311</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Create ProductOrder">
+      <created>1661788291524</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1661788291524</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,6 +175,8 @@
     <MESSAGE value="create Order" />
     <MESSAGE value="create Update" />
     <MESSAGE value="Create orderStatus" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create orderStatus" />
+    <MESSAGE value="Update and Product" />
+    <MESSAGE value="Create ProductOrder" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create ProductOrder" />
   </component>
 </project>

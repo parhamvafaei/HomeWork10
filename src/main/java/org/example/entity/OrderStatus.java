@@ -1,5 +1,5 @@
 package org.example.entity;
 
-public enum OrderStetus {
+public enum OrderStatus {
     WAITING, PENDING, CONFIRMED , REJECTED
 }
